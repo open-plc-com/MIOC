@@ -2,4 +2,4 @@
 
 Firmware of IO module
 
-Project for EmBitz and Keil; SPL
+Projects for EmBitz and Keil; SPL
