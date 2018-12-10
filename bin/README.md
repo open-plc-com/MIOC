@@ -1,0 +1,1 @@
+Example interface of configurator
