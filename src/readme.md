@@ -1,1 +1,1 @@
-# Source of configurator
+# Source code of configurator
