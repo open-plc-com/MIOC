@@ -1,1 +1,1 @@
-# Source code of configurator
+# Source code of REM (Resource Editor & Monitor)
