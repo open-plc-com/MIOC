@@ -1,1 +1,1 @@
-Example interface of configurator
+REM
