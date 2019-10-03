@@ -1,1 +1,1 @@
-dht_22.c\t- support DHT22 sensor
+dht_22.c - support DHT22 sensor
