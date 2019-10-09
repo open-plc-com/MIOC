@@ -15,16 +15,18 @@
 	Increment timer frequency ( CntTime ) = 10 mS
 */
 
-#define SENSOR_PIN (GPIOA, GPIO_Pin_5)
+#define PORT GPIOA
+#define	PIN GPIO_Pin_5
+#define SENSOR_PIN (PORT, PIN)
 
 void dht_init( void )
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_StructInit( &GPIO_InitStructure );
-	GPIO_InitStructure.GPIO_Pin		= GPIO_Pin_5;
+	GPIO_InitStructure.GPIO_Pin		= PIN;
 	GPIO_InitStructure.GPIO_Mode	= GPIO_Mode_Out_OD;
 	GPIO_InitStructure.GPIO_Speed	= GPIO_Speed_10MHz;
-	GPIO_Init( GPIOA, &GPIO_InitStructure );
+	GPIO_Init( PORT, &GPIO_InitStructure );
 	GPIO_SetBits SENSOR_PIN;
 }
 
