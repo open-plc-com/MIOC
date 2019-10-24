@@ -21,3 +21,5 @@ Example of code:
             print( "Freq=%-10d\r", Freq );
         }
     }
+
+Do not use ADC inputs. Using the ADC initializes timer 4. It is used in this snippet. This will cause a conflict.
